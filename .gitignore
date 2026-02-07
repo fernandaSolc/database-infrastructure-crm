@@ -1,0 +1,43 @@
+# Arquivos de configuração sensíveis
+config.env
+.env
+.env.local
+.env.production
+
+# Certificados SSL e chaves privadas
+secrets/
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Backups do banco de dados
+backups/
+*.sql
+*.sql.gz
+*.dump
+
+# Logs
+logs/
+*.log
+
+# Dados do PostgreSQL
+postgres_data/
+pgadmin_data/
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de sistema
+*.pid
+*.sock
